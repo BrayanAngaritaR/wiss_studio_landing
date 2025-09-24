@@ -51,6 +51,10 @@
       padding-inline:clamp(12px,4vw,24px);
     }
 
+    .logo{
+      width: 70%;
+    }
+
     /* Titulares */
     .pre{
       color:var(--accent);
@@ -116,6 +120,9 @@
     @media (max-width:380px){
       .brand{letter-spacing:-2px}
       .city{letter-spacing:-1px}
+      .logo{
+        width: 100%;
+      }
     }
 
     /* Respeta preferencias del usuario */
@@ -131,13 +138,15 @@
   <main class="wrap">
     <div class="container" role="main">
       <!-- Regla 1: Neue Haas Grotesk (Regular) para “PRÓXIMAMENTE” -->
-      <h2 class="pre" aria-label="Próximamente">PRÓXIMAMENTE</h2>
+      <!-- <h2 class="pre" aria-label="Próximamente">PRÓXIMAMENTE</h2> -->
 
       <!-- Regla 3: Oswald (Regular) y separación de hasta 100px para “WISS STUDIO” -->
-      <h1 class="brand">WISS STUDIO</h1>
+      <!-- <h1 class="brand">WISS STUDIO</h1> -->
 
       <!-- Regla 1: Neue Haas Grotesk (Regular) para “MEDELLÍN” -->
-      <h2 class="city">MEDELLÍN</h2>
+      <!-- <h2 class="city">MEDELLÍN</h2> -->
+
+      <img src="./img/logo.png" class="logo" alt="">
 
       <!-- Regla 2: 50px máx debajo del título (fluido en móviles) -->
       <p class="cta">
@@ -147,8 +156,8 @@
         </a>
         <br />
         MIRA NUESTRO PORTAFOLIO EN INSTAGRAM
-        <a href="https://instagram.com/wiss_st" target="_blank" rel="noopener" aria-label="Abrir Instagram de WISS STUDIO">
-          <strong>@WISS_ST</strong>
+        <a href="https://instagram.com/wiss_std" target="_blank" rel="noopener" aria-label="Abrir Instagram de WISS STUDIO">
+          <strong>@WISS_STD</strong>
         </a>
       </p>
 
